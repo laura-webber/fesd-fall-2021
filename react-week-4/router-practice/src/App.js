@@ -79,6 +79,7 @@ function Friends(props) {
 
 function Posts({ posts }) {
   const match = useRouteMatch();
+  // eslint-disable-next-line eqeqeq
   const findPostById = (id) => posts.filter((post) => post.id == id)[0];
 
   return (
